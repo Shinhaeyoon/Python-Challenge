@@ -40,7 +40,7 @@ print("----------------------------")
 print(f"Total Votes: {total_votes}")
 print("----------------------------")
 for i in range(len(candidates)):
-    print(f"{candidates[i]}: {str(percent_votes[i])} ({str(num_votes[i])})")
+    print(f"{candidates[i]}: {str(round(percent_votes[i],3))}% ({str(num_votes[i])})")
 print("----------------------------")
 print(f"Winner: {winning_candidate}")
 print("----------------------------")
@@ -57,8 +57,7 @@ line3 = f"Total Votes: {total_votes}"
 line4 = "----------------------------"
 PP_output.write('{}\n{}\n{}\n{}\n'.format(line1, line2, line3, line4))
 for i in range(len(candidates)):
-    line = str(
-        f"{candidates[i]}: {str(percent_votes[i])} ({str(num_votes[i])})")
+    line = str(f"{candidates[i]}: {str(round(percent_votes[i],3))}% ({str(num_votes[i])})")
     PP_output.write('{}\n'.format(line))
 line5 = "----------------------------"
 line6 = f"Winner: {winning_candidate}"

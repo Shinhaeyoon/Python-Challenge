@@ -2,7 +2,7 @@
 
 
 
-#PyBank Instructions
+# PyBank Instructions
 
 In this Challenge, you are tasked with creating a Python script to analyze the financial records of your company. You will be given a financial dataset called budget_data.csv. The dataset is composed of two columns: "Date" and "Profit/Losses".
 
@@ -20,7 +20,7 @@ The greatest decrease in profits (date and amount) over the entire period
 
 
 
-#PyPoll Instructions
+# PyPoll Instructions
 
 In this Challenge, you are tasked with helping a small, rural town modernize its vote-counting process.
 
